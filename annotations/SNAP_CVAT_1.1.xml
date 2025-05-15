@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <job>
+      <id>1222519</id>
+      <size>15</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker></bugtracker>
+      <created>2024-09-10 20:43:09.993942+00:00</created>
+      <updated>2024-09-10 21:44:12.550808+00:00</updated>
+      <subset>default</subset>
+      <start_frame>0</start_frame>
+      <stop_frame>14</stop_frame>
+      <frame_filter></frame_filter>
+      <segments>
+        <segment>
+          <id>1224807</id>
+          <start>0</start>
+          <stop>14</stop>
+          <url>https://app.cvat.ai/api/jobs/1222519</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>erinome</username>
+        <email>erinome@me.com</email>
+      </owner>
+      <assignee></assignee>
+      <labels>
+        <label>
+          <name>object</name>
+          <color>#40e020</color>
+          <type>any</type>
+          <attributes>
+            <attribute>
+              <name>class</name>
+              <mutable>True</mutable>
+              <input_type>text</input_type>
+              <default_value></default_value>
+              <values></values>
+            </attribute>
+            <attribute>
+              <name>occluded</name>
+              <mutable>True</mutable>
+              <input_type>checkbox</input_type>
+              <default_value>false</default_value>
+              <values>false</values>
+            </attribute>
+            <attribute>
+              <name>cropped</name>
+              <mutable>True</mutable>
+              <input_type>checkbox</input_type>
+              <default_value>false</default_value>
+              <values>false</values>
+            </attribute>
+          </attributes>
+        </label>
+      </labels>
+    </job>
+    <dumped>2024-09-10 21:44:26.563088+00:00</dumped>
+  </meta>
+  <image id="0" name="10_spoon.jpg" width="6000" height="4000">
+    <polygon label="object" source="manual" occluded="0" points="1942.10,2287.50;1981.50,2221.80;2050.50,2235.00;3058.50,3055.80;3327.71,3154.34;3583.81,3236.43;3744.70,3308.66;3905.60,3456.40;3912.16,3594.32;3790.67,3705.96;3590.38,3732.22;3321.14,3692.82;3156.97,3571.34;3074.88,3440.00;2986.20,3200.30;2900.86,3137.92;2234.33,2560.04" z_order="0">
+      <attribute name="occluded">false</attribute>
+      <attribute name="class">spoon</attribute>
+      <attribute name="cropped">false</attribute>
+    </polygon>
+    <polygon label="object" source="manual" occluded="0" points="1173.78,3272.54;1170.50,3328.36;1200.05,3384.18;1275.57,3380.90;2447.75,2757.05;2355.81,2674.96" z_order="0" group_id="4">
+      <attribute name="class">spoon</attribute>
+      <attribute name="occluded">false</attribute>
+      <attribute name="cropped">false</attribute>
+    </polygon>
+    <polygon label="object" source="manual" occluded="0" points="2497.00,2586.31;2588.94,2678.24;2887.73,2537.06;3258.75,2343.34;3334.27,2303.93;3613.36,2244.83;3793.95,2166.03;3830.07,2060.96;3738.13,1988.73;3600.23,1965.74;3445.91,1975.59;3291.59,2070.81;3248.90,2215.28" z_order="0" group_id="4">
+      <attribute name="class">spoon</attribute>
+      <attribute name="occluded">false</attribute>
+      <attribute name="cropped">false</attribute>
+    </polygon>
+  </image>
+  <image id="1" name="11_bottle.jpg" width="6000" height="4000">
+    <polygon label="object" source="manual" occluded="0" points="3272.06,735.12;3272.06,683.99;3282.82,657.07;3296.28,587.10;3344.72,554.81;3481.97,552.39;3554.63,557.50;3640.75,584.41;3651.51,649.00;3662.27,727.04;3638.05,759.34;3632.67,807.78;3724.17,928.88;3775.30,1023.34;3837.20,1179.16;3829.13,1319.10;3821.05,1480.56;3775.50,2484.80;3330.20,2490.90;3081.00,2541.70;3075.61,2166.81;3089.06,1588.21;3080.99,1219.52;3115.97,1068.82;3177.87,955.79;3280.13,853.80;3307.04,797.01;3304.35,753.96" z_order="0">
+      <attribute name="cropped">false</attribute>
+      <attribute name="occluded">false</attribute>
+      <attribute name="class">bottle</attribute>
+    </polygon>
+    <polygon label="object" source="manual" occluded="0" points="4249.64,818.65;4286.84,716.34;4291.49,534.98;4356.59,507.08;4500.75,497.78;4612.36,511.73;4677.46,553.58;4682.11,841.90;4635.61,874.45;4644.91,986.06;4775.12,1079.06;4942.53,1288.33;4965.78,1432.49;4784.42,3325.16;4603.06,3683.23;4472.85,3739.03;4403.10,3701.83;4263.59,3664.63;4226.38,3659.98;4175.23,3715.78;3970.62,3655.33;3872.96,3539.07;3798.56,3376.31;3748.90,3153.10;3877.61,1348.78;3947.37,1223.22;4086.88,1074.41;4263.59,972.11;4300.79,865.15" z_order="0">
+      <attribute name="cropped">false</attribute>
+      <attribute name="occluded">false</attribute>
+      <attribute name="class">bottle</attribute>
+    </polygon>
+    <polygon label="object" source="manual" occluded="0" points="1662.75,751.26;1649.30,646.58;1657.37,589.80;1705.81,563.15;1789.24,557.50;1856.52,560.19;1921.10,576.61;1942.63,635.81;1942.63,695.02;1934.56,735.39;1929.18,764.99;1942.63,797.28;1915.72,810.47;1918.41,858.91;2074.50,1004.50;2098.72,1052.67;2114.87,2121.33;2055.66,2166.81;1942.63,2193.72;1837.68,2207.17;1711.20,2204.48;1619.70,2193.72;1582.02,2172.46;1541.65,2142.85;1512.10,1060.70;1541.70,1001.80;1611.60,918.10;1657.37,853.80;1681.59,829.31;1649.30,783.83" z_order="0">
+      <attribute name="cropped">false</attribute>
+      <attribute name="occluded">false</attribute>
+      <attribute name="class">bottle</attribute>
+    </polygon>
+    <polygon label="object" source="manual" occluded="0" points="2152.35,3008.94;2119.80,3111.24;2147.70,3236.80;2194.20,3343.76;2263.96,3367.01;2454.62,3334.46;2501.12,3283.30;2659.23,3408.86;2928.95,3515.82;3776.90,3281.70;3747.40,3162.40;3798.56,2483.45;3328.88,2492.75;3045.21,2548.56;2640.63,2636.91;2412.77,2962.43;2347.66,2948.48" z_order="0">
+      <attribute name="occluded">false</attribute>
+      <attribute name="cropped">false</attribute>
+      <attribute name="class">bottle</attribute>
+    </polygon>
+  </image>
+  <image id="2" name="12_phone.jpg" width="6000" height="4000">
+    <polygon label="object" source="manual" occluded="0" points="2338.20,3652.00;2007.60,3381.60;1979.90,3281.90;2203.51,3194.58;3191.23,2848.59;3647.60,3082.40;3648.82,3161.09;3598.59,3216.90;2460.20,3663.33" z_order="0">
+      <attribute name="class">cell phone</attribute>
+      <attribute name="occluded">false</attribute>
+      <attribute name="cropped">false</attribute>
+    </polygon>
+    <polygon label="object" source="manual" occluded="0" points="2261.80,3170.06;2221.44,3145.84;2221.44,3067.80;2681.62,2892.88;2773.12,2917.10;2845.78,2968.23" z_order="0">
+      <attribute name="class">cell phone</attribute>
+      <attribute name="occluded">false</attribute>
+      <attribute name="cropped">false</attribute>
+    </polygon>
+    <polygon label="object" source="manual" occluded="0" points="2802.72,3536.06;2974.96,3649.09;3077.22,3681.38;3182.17,3649.09;3537.41,3498.38;3580.46,3474.16;3569.70,3385.36;3427.07,3288.47" z_order="0">
+      <attribute name="class">cell phone</attribute>
+      <attribute name="occluded">false</attribute>
+      <attribute name="cropped">false</attribute>
+    </polygon>
+    <polygon label="object" source="manual" occluded="0" points="1690.30,2248.80;2085.62,2678.92;2190.25,2725.42;2767.70,2609.20;2775.41,2489.03;2248.40,2062.80;1806.60,2144.14;1717.47,2182.89" z_order="0">
+      <attribute name="occluded">false</attribute>
+      <attribute name="class">cell phone</attribute>
+      <attribute name="cropped">false</attribute>
+    </polygon>
+    <polygon label="object" source="manual" occluded="0" points="3868.23,2318.52;3844.98,2206.14;3968.99,2109.26;4418.50,1830.20;4546.40,1869.00;4352.64,1981.38;4355.20,2042.10;4747.91,2221.64;4747.91,2268.14;4554.15,2423.15;4461.15,2469.66;4360.40,2489.00;4112.37,2427.03;3934.11,2368.90" z_order="0">
+      <attribute name="cropped">false</attribute>
+      <attribute name="occluded">false</attribute>
+      <attribute name="class">cell phone</attribute>
+    </polygon>
+    <polygon label="object" source="manual" occluded="0" points="5347.40,2449.00;5547.50,2279.70;5533.20,2224.10;4616.16,1853.49;4560.60,1865.10;4352.64,1985.25;4356.51,2043.38;4749.30,2217.80;4749.20,2256.40;5269.60,2447.60" z_order="0">
+      <attribute name="class">cell phone</attribute>
+      <attribute name="occluded">false</attribute>
+      <attribute name="cropped">false</attribute>
+    </polygon>
+  </image>
+  <image id="3" name="13_umbrella.jpg" width="6000" height="4000">
+    <polygon label="object" source="manual" occluded="0" points="3371.19,1877.52;2678.30,2463.46;2659.70,2644.82;2478.34,2840.13;2906.16,3272.61;2734.10,3649.28;4036.19,3798.09;4315.20,3621.38;4496.57,3802.74;4840.69,3849.24;5003.45,3863.20;5138.31,3923.65;5994.00,3895.70;6000.00,3162.97;6000.00,2384.14;5998.61,2249.54;5942.81,2054.23;5821.90,2221.64;5677.74,2086.78;5575.44,2235.59;5408.02,1933.32;5166.21,1975.17;4924.39,2258.84;4877.89,2110.03;4877.89,2110.03;5031.35,2072.83;5082.50,1942.62;5063.90,1844.97;4938.34,1733.36;4766.28,1617.10;4761.63,1356.69;4691.88,1212.53;4543.07,1142.77;4426.81,1226.48;4417.51,1319.48;4389.61,1417.14;4440.76,1589.20;4459.36,1719.41;4538.42,1784.51;4543.07,1817.06;4440.76,1835.67;4505.87,1942.62;4496.57,1989.13;4394.26,1970.52;4287.30,1989.13;4273.35,2347.20;4175.70,2361.15;4050.14,1914.72;3850.17,2096.08;3775.77,1844.97;3473.50,2086.78" z_order="0">
+      <attribute name="class">umbrella</attribute>
+      <attribute name="occluded">false</attribute>
+      <attribute name="cropped">false</attribute>
+    </polygon>
+    <polygon label="object" source="manual" occluded="0" points="0.00,1823.75;605.18,1106.74;1415.45,242.90;1919.94,0.00;4556.10,0.00;3029.29,1113.44;2486.88,1582.19;2975.71,2285.31;2948.93,2338.88;2433.30,1635.76;2051.60,1943.80;1589.55,2459.42;1442.23,2479.51;685.54,2901.38;0.00,3428.72" z_order="0">
+      <attribute name="class">umbrella</attribute>
+      <attribute name="occluded">false</attribute>
+      <attribute name="cropped">false</attribute>
+    </polygon>
+  </image>
+  <image id="4" name="14_tv.jpg" width="6000" height="4000">
+    <polygon label="object" source="manual" occluded="0" points="405.62,0.62;381.52,2491.70;1763.66,2499.73;2117.23,2499.73;2109.20,2805.09;1675.27,2877.41;1651.16,2925.62;1868.12,3263.12;2036.87,3271.16;2277.95,2427.41;3443.12,2459.55;3459.20,2218.48;3644.02,1969.37;3869.02,1816.70;4238.66,1720.27;4560.09,1760.45;4648.48,121.16;2872.59,0.62" z_order="0">
+      <attribute name="cropped">false</attribute>
+      <attribute name="class">tv</attribute>
+      <attribute name="occluded">false</attribute>
+    </polygon>
+    <polygon label="object" source="manual" occluded="0" points="1924.38,3817.59;2302.05,2403.30;3451.16,2459.55;3459.20,2218.50;3611.87,2009.55;3820.80,1832.77;4246.70,1728.30;4592.23,1760.45;4913.66,1961.34;5002.05,2138.12;5106.52,2403.30;5090.40,2515.80;5998.48,2555.98;6000.00,2692.61;6000.00,4000.00;1954.78,4000.00" z_order="0">
+      <attribute name="occluded">false</attribute>
+      <attribute name="cropped">false</attribute>
+      <attribute name="class">tv</attribute>
+    </polygon>
+  </image>
+  <image id="5" name="15_banana.jpg" width="6000" height="4000">
+    <polygon label="object" source="manual" occluded="0" points="2078.64,1256.70;2101.90,1411.71;2194.90,1500.84;2408.04,1562.85;2679.31,1624.85;2977.70,1667.48;3272.22,1651.98;3454.36,1620.98;3574.49,1496.97;3783.75,1403.96;3834.13,1438.84;3876.76,1392.34;3900.01,1314.83;3807.00,1206.30;3733.40,1245.10;3706.20,1334.20;3562.86,1388.46;3361.35,1372.96;2977.70,1357.46;2570.80,1307.08;2237.53,1217.95" z_order="0">
+      <attribute name="occluded">false</attribute>
+      <attribute name="class">banana</attribute>
+      <attribute name="cropped">false</attribute>
+    </polygon>
+    <polygon label="object" source="manual" occluded="0" points="718.40,2651.80;671.93,2450.28;675.80,2341.77;776.56,2210.01;908.32,2093.76;1121.46,2000.75;1381.10,1927.12;1671.74,1872.87;1997.26,1861.24;2175.52,1923.25;2361.54,2031.75;2148.40,2047.25;1989.51,2031.75;1656.24,2051.13;1237.71,2148.01;912.19,2415.40;811.50,2593.70;807.60,2667.30" z_order="0">
+      <attribute name="class">banana</attribute>
+      <attribute name="occluded">false</attribute>
+      <attribute name="cropped">false</attribute>
+    </polygon>
+    <polygon label="object" source="manual" occluded="0" points="989.70,3124.57;923.82,2988.94;904.44,2810.68;838.56,2698.30;819.19,2609.17;904.44,2423.15;1237.71,2148.01;1652.37,2055.00;1981.76,2024.00;2365.41,2031.75;2535.92,2117.01;2613.43,2171.26;2594.05,2241.02;2857.57,2345.65;2842.07,2411.53;2687.06,2384.40;2512.67,2310.77;2318.91,2368.90;2012.76,2392.15;1722.12,2454.16;1439.23,2551.04;1369.47,2589.79;1214.46,2713.80;1094.33,2795.18;1047.83,2822.30;1086.58,2961.81;1117.58,3039.32;1074.95,3136.20" z_order="0">
+      <attribute name="class">banana</attribute>
+      <attribute name="occluded">false</attribute>
+      <attribute name="cropped">false</attribute>
+    </polygon>
+    <polygon label="object" source="manual" occluded="0" points="2613.43,3074.20;2698.68,2853.31;2861.44,2725.42;3097.83,2636.29;3411.73,2558.79;3714.00,2539.41;3973.64,2551.04;4268.16,2624.67;4500.67,2725.42;4640.18,2822.30;4388.29,2923.06;4097.65,2985.06;3946.51,2946.31;3768.25,2915.31;3570.61,2923.06;3155.96,2845.56;3086.21,2957.94;3117.21,3062.57;2954.45,3136.20;2772.31,3178.83;2656.06,3198.20" z_order="0">
+      <attribute name="class">banana</attribute>
+      <attribute name="occluded">false</attribute>
+      <attribute name="cropped">false</attribute>
+    </polygon>
+    <polygon label="object" source="manual" occluded="0" points="3082.33,2973.44;3152.09,3112.95;3252.84,3256.33;3403.98,3345.46;3679.12,3434.59;4062.77,3473.35;4396.04,3422.97;4659.56,3337.71;4888.20,3233.08;5070.34,3085.82;5182.72,2919.19;5213.72,2768.05;5143.96,2593.66;5097.46,2523.91;5085.84,2403.78;5116.84,2314.65;5178.84,2237.14;5205.97,2109.26;5163.34,2055.00;5085.84,2171.26;5000.58,2237.14;4957.95,2473.53;4942.45,2543.29;4795.19,2651.79;4663.43,2806.80;4179.03,2985.06;3849.63,2977.31;3361.35,2892.06;3159.84,2841.68" z_order="0">
+      <attribute name="class">banana</attribute>
+      <attribute name="occluded">false</attribute>
+      <attribute name="cropped">false</attribute>
+    </polygon>
+    <polygon label="object" source="manual" occluded="0" points="4698.30,3341.60;4814.57,3484.97;4876.57,3562.48;4985.08,3620.60;5019.96,3577.98;5097.46,3632.23;5105.21,3686.48;5163.34,3639.98;5136.21,3539.22;5008.33,3411.34;4942.45,3419.09;4818.44,3279.58" z_order="0">
+      <attribute name="class">banana</attribute>
+      <attribute name="occluded">false</attribute>
+      <attribute name="cropped">false</attribute>
+    </polygon>
+  </image>
+  <image id="6" name="16_orange.jpg" width="6000" height="4000">
+    <polygon label="object" source="manual" occluded="0" points="2662.19,1443.43;2710.63,1353.00;2807.51,1298.10;2939.92,1262.58;3082.01,1275.50;3159.51,1343.32;3240.25,1449.88;3266.08,1572.60;3259.63,1663.02;3217.64,1756.68;3149.83,1834.18;3065.86,1879.39;2907.62,1885.85;2807.51,1863.24;2746.15,1811.57;2726.78,1772.82;2717.09,1588.75" z_order="0">
+      <attribute name="class">orange</attribute>
+      <attribute name="occluded">false</attribute>
+      <attribute name="cropped">false</attribute>
+    </polygon>
+    <polygon label="object" source="manual" occluded="0" points="3308.07,1753.45;3256.40,1860.01;3224.10,1976.27;3227.33,2086.07;3266.08,2179.72;3320.98,2270.15;3401.72,2341.19;3479.22,2360.57;3631.00,2360.57;3740.80,2328.27;3866.75,2241.08;3918.42,2140.97;3963.63,1982.73;3953.90,1827.70;3866.70,1711.50;3753.72,1627.50;3595.48,1608.12;3427.55,1656.56" z_order="0">
+      <attribute name="class">orange</attribute>
+      <attribute name="occluded">false</attribute>
+      <attribute name="cropped">false</attribute>
+    </polygon>
+    <polygon label="object" source="manual" occluded="0" points="3175.66,2880.50;3098.16,2974.15;3033.57,3116.24;3010.96,3235.73;3033.57,3390.74;3094.93,3510.22;3169.20,3607.11;3253.17,3662.01;3408.18,3716.90;3527.66,3723.36;3698.82,3687.84;3821.54,3613.56;3899.04,3503.77;3950.71,3348.76;3957.17,3158.22;3899.04,3022.59;3789.24,2896.64;3656.84,2815.91;3550.27,2783.62;3317.75,2812.68" z_order="0">
+      <attribute name="class">orange</attribute>
+      <attribute name="occluded">false</attribute>
+      <attribute name="cropped">false</attribute>
+    </polygon>
+    <polygon label="object" source="manual" occluded="0" points="3585.79,2802.99;3605.17,2702.88;3656.84,2593.08;3756.95,2518.81;3905.50,2463.91;4050.82,2457.45;4199.37,2496.20;4325.32,2609.23;4409.28,2715.80;4464.18,2851.43;4470.64,3019.36;4409.28,3148.53;4302.71,3287.40;4157.39,3348.76;4034.67,3361.67;3960.40,3361.67;3963.63,3203.43;3895.81,3006.44;3795.70,2890.19;3643.92,2815.91" z_order="0">
+      <attribute name="class">orange</attribute>
+      <attribute name="occluded">false</attribute>
+      <attribute name="cropped">false</attribute>
+    </polygon>
+    <polygon label="object" source="manual" occluded="0" points="3976.55,2454.22;4024.99,2367.03;4118.64,2270.15;4244.58,2195.87;4370.53,2166.81;4496.48,2182.95;4609.50,2244.31;4699.93,2331.50;4767.74,2418.70;4796.81,2557.56;4783.89,2712.57;4725.76,2854.66;4648.26,2928.94;4506.16,2974.15;4470.64,2987.07;4464.18,2848.20;4402.82,2696.42;4299.48,2580.17;4186.46,2492.97;4034.67,2450.99" z_order="0">
+      <attribute name="class">orange</attribute>
+      <attribute name="occluded">false</attribute>
+      <attribute name="cropped">false</attribute>
+    </polygon>
+    <polygon label="object" source="manual" occluded="0" points="2206.85,1388.53;2103.51,1485.41;2077.67,1675.94;2139.03,1847.10;2245.60,1953.67;2423.22,2005.34;2568.54,1982.73;2675.11,1892.31;2723.55,1766.36;2720.32,1588.75;2671.88,1466.03;2578.23,1378.84;2458.74,1333.63;2297.27,1340.09" z_order="0">
+      <attribute name="cropped">false</attribute>
+      <attribute name="occluded">false</attribute>
+      <attribute name="class">orange</attribute>
+    </polygon>
+    <polygon label="object" source="manual" occluded="0" points="1612.64,2150.66;1564.20,2247.54;1535.14,2386.40;1557.75,2502.66;1609.42,2647.98;1680.46,2751.32;1790.26,2825.60;1990.48,2848.20;2103.51,2815.91;2197.16,2744.86;2255.29,2651.21;2316.65,2505.89;2319.88,2367.03;2261.75,2192.64;2174.56,2108.68;2058.30,2037.63;1922.66,2002.11;1793.49,2018.25;1677.23,2076.38" z_order="0">
+      <attribute name="cropped">false</attribute>
+      <attribute name="occluded">false</attribute>
+      <attribute name="class">orange</attribute>
+    </polygon>
+    <polygon label="object" source="manual" occluded="0" points="2100.28,1478.95;2113.20,1359.46;2174.56,1246.43;2274.67,1162.47;2416.76,1130.18;2513.60,1139.90;2626.70,1207.70;2707.40,1317.48;2665.42,1436.97;2575.00,1382.07;2461.97,1333.63;2310.19,1343.32;2200.39,1385.30" z_order="0">
+      <attribute name="cropped">false</attribute>
+      <attribute name="occluded">false</attribute>
+      <attribute name="class">orange</attribute>
+    </polygon>
+  </image>
+  <image id="7" name="17_basketball.jpg" width="6000" height="4000">
+    <polygon label="object" source="manual" occluded="0" points="2658.86,1311.76;2435.65,1601.94;2307.30,1953.51;2257.08,2277.17;2296.14,2595.25;2441.23,2868.68;2653.28,3175.60;2882.08,3393.24;3250.38,3532.75;3629.84,3582.97;4026.05,3527.17;4321.81,3387.66;4662.21,3080.74;4840.78,2745.92;4935.65,2427.84;4918.91,2009.31;4840.78,1719.13;4600.80,1350.80;4355.29,1149.93;3925.60,954.60;3401.05,909.98;2915.56,1088.55" z_order="0">
+      <attribute name="class">sports ball</attribute>
+      <attribute name="occluded">false</attribute>
+      <attribute name="cropped">false</attribute>
+    </polygon>
+    <polygon label="object" source="manual" occluded="0" points="2960.20,1066.23;2798.37,854.17;2508.19,653.28;2123.15,552.84;1838.55,547.26;1486.99,653.28;1224.71,843.01;1029.40,1116.45;940.11,1378.73;912.21,1641.01;940.11,1981.41;1107.52,2282.75;1308.42,2505.96;1503.73,2645.47;1743.68,2718.01;2022.70,2768.24;2318.46,2740.34;2363.10,2745.92;2284.98,2623.15;2251.50,2277.17;2284.98,1970.25;2424.49,1607.52;2658.86,1300.60" z_order="0">
+      <attribute name="class">sports ball</attribute>
+      <attribute name="occluded">false</attribute>
+      <attribute name="cropped">false</attribute>
+    </polygon>
+  </image>
+  <image id="8" name="18_ball.jpg" width="6000" height="4000">
+    <polygon label="object" source="manual" occluded="0" points="1143.01,2583.98;1073.56,2693.93;1056.20,2844.40;1119.86,3006.43;1264.54,3099.03;1455.51,3093.24;1513.38,3041.16;1507.60,2890.70;1530.74,2769.17;1588.60,2630.30;1490.20,2543.50;1281.90,2526.10" z_order="0">
+      <attribute name="class">sports ball</attribute>
+      <attribute name="occluded">false</attribute>
+      <attribute name="cropped">false</attribute>
+    </polygon>
+    <polygon label="object" source="manual" occluded="0" points="1565.46,2641.85;1652.27,2520.32;1814.31,2410.37;2005.28,2369.86;2167.31,2404.58;2323.56,2502.96;2456.67,2670.79;2514.54,2855.97;2502.96,3029.58;2404.58,3232.13;2242.55,3365.23;1953.19,3411.53;1704.35,3330.51;1559.68,3220.56;1513.38,2977.50;1501.81,2815.46" z_order="0">
+      <attribute name="class">sports ball</attribute>
+      <attribute name="occluded">false</attribute>
+      <attribute name="cropped">false</attribute>
+    </polygon>
+    <polygon label="object" source="manual" occluded="0" points="1611.76,2566.62;1449.72,2358.29;1316.62,2016.85;1305.05,1698.56;1391.85,1391.85;1548.10,1166.16;1739.07,986.76;1987.92,859.44;2277.27,790.00;2566.62,836.30;2757.59,894.17;2994.86,1050.42;3162.70,1224.00;3237.90,1357.10;3035.37,1490.23;2786.53,1733.29;2647.64,2022.64;2566.62,2265.69;2537.68,2514.54;2560.83,2722.87;2630.28,2919.63;2520.32,2919.63;2474.03,2717.08;2358.29,2537.68;2202.04,2427.73;2028.43,2358.29;1808.52,2410.37;1704.35,2468.24" z_order="0">
+      <attribute name="class">sports ball</attribute>
+      <attribute name="occluded">false</attribute>
+      <attribute name="cropped">false</attribute>
+    </polygon>
+    <polygon label="object" source="manual" occluded="0" points="2798.10,1721.71;3029.58,1501.81;3261.06,1333.98;3614.07,1241.39;3943.93,1241.39;4215.93,1328.19;4603.66,1507.59;4823.56,1750.65;4945.09,2022.64;5055.05,2375.65;5008.75,2734.44;4904.58,3104.81;4661.53,3365.23;4343.24,3567.78;4059.68,3671.94;3741.39,3724.03;3353.66,3677.73;3012.22,3457.82;2798.10,3237.92;2636.06,2919.63;2543.47,2682.36;2531.90,2508.75;2560.83,2254.12;2670.79,1993.70" z_order="0">
+      <attribute name="class">sports ball</attribute>
+      <attribute name="occluded">false</attribute>
+      <attribute name="cropped">false</attribute>
+    </polygon>
+  </image>
+  <image id="9" name="19_keyboard.jpg" width="6000" height="4000">
+    <polygon label="object" source="manual" occluded="0" points="1517.91,1320.67;1469.69,1383.36;1488.98,2203.19;1609.54,2270.71;1831.38,2265.89;3128.64,2198.37;4647.74,2072.99;4855.10,1962.07;4869.57,1870.44;4720.07,1050.61;4642.91,958.98;4396.96,1007.21;3581.96,1098.83;3490.33,1031.32;3490.33,1098.83;3210.62,1132.59;3090.06,1113.30;3046.65,1132.59;2945.38,1151.88;2858.58,1137.41;2810.35,1176.00" z_order="0">
+      <attribute name="class">keyboard</attribute>
+      <attribute name="occluded">false</attribute>
+      <attribute name="cropped">false</attribute>
+    </polygon>
+    <polygon label="object" source="manual" occluded="0" points="0.00,2409.30;28.55,2404.11;41.68,2430.37;74.52,2430.37;104.07,2394.26;215.70,2384.41;238.69,2430.37;248.54,2427.09;274.81,2394.26;557.18,2364.71;573.60,2387.69;672.10,2387.69;678.67,2328.59;767.32,2348.29;790.30,2345.01;823.14,2367.99;862.54,2348.29;967.61,2338.44;1000.44,2361.42;1033.28,2345.01;1115.36,2335.16;1154.76,2348.29;1269.68,2335.16;1355.05,2266.20;1420.72,2239.94;1509.37,2216.95;1588.18,2249.79;1637.43,2285.90;1795.03,2276.05;3318.54,2193.97;3568.08,2318.74;3679.72,2348.29;3699.42,2394.26;3745.39,2384.41;3801.20,2410.67;3853.74,2446.79;4001.49,2476.34;4037.60,2637.20;4004.78,2745.58;1873.83,2965.57;1814.73,3004.97;1758.91,3004.97;1739.21,2972.14;1414.15,2998.41;1427.29,3021.39;1332.07,3034.52;1286.10,2998.41;215.70,3077.21;5.57,2936.02;0.00,2713.41" z_order="0">
+      <attribute name="class">keyboard</attribute>
+      <attribute name="occluded">false</attribute>
+      <attribute name="cropped">false</attribute>
+    </polygon>
+    <polygon label="object" source="manual" occluded="0" points="3827.47,2148.00;3791.35,2279.34;3935.83,2459.93;3988.36,2476.34;4034.33,2604.40;4073.73,2722.60;4126.26,2807.97;4198.50,2853.94;4668.03,3464.65;4782.95,3612.41;5045.62,3638.68;5692.46,3687.93;5994.53,3687.93;6000.00,3447.36;6000.00,3250.66;5236.06,2578.13;5170.39,2453.36;5019.36,2312.17;4881.45,2299.04;4661.46,2088.90;4487.44,2131.58;4326.55,2154.57;4109.85,2161.13" z_order="0">
+      <attribute name="class">keyboard</attribute>
+      <attribute name="occluded">false</attribute>
+      <attribute name="cropped">false</attribute>
+    </polygon>
+    <polygon label="object" source="manual" occluded="0" points="310.92,3070.64;314.21,3100.19;370.03,3146.16;422.56,3238.10;553.90,3287.35;494.80,3376.00;521.06,3402.27;668.80,3284.10;1509.37,3362.87;1545.49,3376.00;2011.70,3405.60;2097.10,3382.60;2862.10,3451.50;2901.50,3497.50;3525.40,3536.89;4457.90,3619.00;4773.10,3763.40;4750.10,3579.60;4221.50,2867.10;3600.92,2804.69" z_order="0">
+      <attribute name="cropped">false</attribute>
+      <attribute name="occluded">false</attribute>
+      <attribute name="class">keyboard</attribute>
+    </polygon>
+  </image>
+  <image id="10" name="20_cup.jpg" width="6000" height="4000">
+    <polygon label="object" source="manual" occluded="0" points="1721.47,1781.89;1694.11,1834.33;1735.15,1918.70;1757.95,2053.23;1771.63,2133.04;1860.56,2899.17;1942.60,2969.90;2097.69,3001.78;2004.21,2472.78;1976.84,2440.86;1986.00,2370.20;2136.50,2294.90;2291.51,2267.56;2476.20,2267.56;2524.08,2096.55;2551.44,1879.94;2587.93,1820.65;2512.68,1743.13;2291.51,1706.65;2109.09,1695.25;1910.72,1708.93" z_order="0">
+      <attribute name="class">cup</attribute>
+      <attribute name="occluded">false</attribute>
+      <attribute name="cropped">false</attribute>
+    </polygon>
+    <polygon label="object" source="manual" occluded="0" points="2006.49,2479.62;1976.84,2429.46;1983.69,2367.89;2152.42,2301.77;2300.63,2272.13;2462.52,2272.13;2615.29,2283.53;2722.46,2329.13;2790.86,2381.57;2745.26,2456.82;2742.98,2611.87;2656.33,3302.76;2574.25,3387.12;2430.60,3407.64;2280.11,3400.80;2152.42,3343.80" z_order="0">
+      <attribute name="class">cup</attribute>
+      <attribute name="occluded">false</attribute>
+      <attribute name="cropped">false</attribute>
+    </polygon>
+    <polygon label="object" source="manual" occluded="0" points="2877.51,2650.63;2877.51,2413.49;2909.43,2331.41;3023.44,2290.37;3153.41,2260.72;3303.90,2247.04;3529.63,2269.84;3652.76,2304.05;3769.05,2372.45;3782.73,2445.42;3762.21,2735.00;3721.16,2974.41;3625.40,3266.27;3527.35,3336.96;3335.82,3368.88;3196.73,3350.64;3050.80,3302.76;2920.83,3254.87;2799.98,3181.91;2736.14,3090.70;2706.49,2960.73;2749.82,2798.84;2831.90,2680.27" z_order="0">
+      <attribute name="class">cup</attribute>
+      <attribute name="occluded">false</attribute>
+      <attribute name="cropped">false</attribute>
+    </polygon>
+    <polygon label="object" source="manual" occluded="0" points="3582.07,2274.40;3556.99,2133.04;3527.35,2062.35;3570.67,1993.95;3755.37,1936.94;3892.18,1936.94;4028.99,1934.66;4193.16,1962.02;4311.73,2009.91;4389.25,2080.59;4345.93,2153.56;4193.16,3038.26;4095.11,3108.94;3946.90,3129.46;3835.17,3115.78;3696.08,3074.74;3771.33,2664.31;3780.40,2440.90;3771.33,2367.89" z_order="0">
+      <attribute name="class">cup</attribute>
+      <attribute name="occluded">false</attribute>
+      <attribute name="cropped">false</attribute>
+    </polygon>
+  </image>
+  <image id="11" name="21_laptop.jpg" width="6000" height="4000">
+    <polygon label="object" source="manual" occluded="0" points="0.00,2607.79;1626.26,1156.60;3793.32,1865.82;2946.20,2748.41;4084.89,3307.90;4069.13,3548.25;2706.23,4000.00;1403.31,4000.00;31.50,2842.40" z_order="0">
+      <attribute name="class">laptop</attribute>
+      <attribute name="occluded">false</attribute>
+      <attribute name="cropped">false</attribute>
+    </polygon>
+    <polygon label="object" source="manual" occluded="0" points="2991.10,160.50;5975.53,137.80;5708.87,1993.12;6000.00,2247.20;6000.00,2884.00;3371.28,2957.66;3070.57,2815.82;3059.22,2656.95;3785.46,1873.97;2974.11,1595.96" z_order="0">
+      <attribute name="class">laptop</attribute>
+      <attribute name="occluded">false</attribute>
+      <attribute name="cropped">false</attribute>
+    </polygon>
+  </image>
+  <image id="12" name="22_remote.jpg" width="6000" height="4000">
+    <polygon label="object" source="manual" occluded="0" points="2957.30,2855.50;2730.21,2934.87;2711.05,2997.81;2713.79,3055.27;3466.24,3400.03;3510.02,3408.23;3709.76,3312.47;3728.92,3252.27;3720.71,3189.34;3365.00,3027.90" z_order="0">
+      <attribute name="class">remote</attribute>
+      <attribute name="occluded">false</attribute>
+      <attribute name="cropped">false</attribute>
+    </polygon>
+    <polygon label="object" source="manual" occluded="0" points="3135.16,2152.32;3247.35,2116.75;3367.74,2152.32;3515.49,2209.78;3564.74,2264.51" z_order="0">
+      <attribute name="class">remote</attribute>
+      <attribute name="cropped">false</attribute>
+      <attribute name="occluded">false</attribute>
+    </polygon>
+    <polygon label="object" source="manual" occluded="0" points="2738.40,2311.00;2185.71,2540.86;2204.86,2606.53;2836.92,2551.81;3064.02,2472.46;3132.43,2428.68;2927.21,2363.01;2749.36,2335.65" z_order="0">
+      <attribute name="class">remote</attribute>
+      <attribute name="occluded">false</attribute>
+      <attribute name="cropped">false</attribute>
+    </polygon>
+    <polygon label="object" source="manual" occluded="0" points="2746.62,2319.23;2716.53,2245.35;2730.21,2201.58;2913.53,2092.13;3876.67,2349.33;4161.23,2442.36;4254.26,2497.08;4350.03,2724.19;4358.24,2819.95;4289.83,2907.51;4210.48,2918.46;3980.64,2784.38;3717.97,2636.63;3332.17,2483.40;2891.64,2357.54" z_order="0">
+      <attribute name="class">remote</attribute>
+      <attribute name="occluded">false</attribute>
+      <attribute name="cropped">false</attribute>
+    </polygon>
+    <polygon label="object" source="manual" occluded="0" points="1758.86,2683.14;1739.71,2798.06;1758.86,2863.73;1791.69,2970.44;2180.23,2907.51;2489.42,2880.15;2894.38,2874.68;2957.31,2855.52;3042.13,2888.36;3274.71,2902.04;3455.30,2921.19;3548.33,2921.19;3578.43,2877.41;3556.54,2806.27;3354.06,2551.81;3310.28,2510.76;2752.10,2560.02;2262.32,2612.00;1994.17,2653.05" z_order="0">
+      <attribute name="cropped">false</attribute>
+      <attribute name="occluded">false</attribute>
+      <attribute name="class">remote</attribute>
+    </polygon>
+    <polygon label="object" source="manual" occluded="0" points="1881.99,1966.26;1783.49,2332.91;1843.68,2666.73;2152.87,2633.89;2213.07,2368.48;2248.64,1985.42;2248.64,1963.53" z_order="0">
+      <attribute name="cropped">false</attribute>
+      <attribute name="occluded">false</attribute>
+      <attribute name="class">remote</attribute>
+    </polygon>
+  </image>
+  <image id="13" name="23_book.jpg" width="6000" height="4000">
+    <polygon label="object" source="manual" occluded="0" points="698.76,2422.17;659.36,2524.61;659.36,2887.10;2302.39,3651.48;3460.78,3099.87;3448.96,3072.28;3417.44,3048.64;3448.96,2713.73;3500.18,2662.51;2920.98,2437.93;1790.17,2284.26;1805.93,2118.78" z_order="0">
+      <attribute name="cropped">false</attribute>
+      <attribute name="occluded">false</attribute>
+      <attribute name="class">book</attribute>
+    </polygon>
+    <polygon label="object" source="manual" occluded="0" points="3716.89,1878.43;4016.34,1827.21;4453.70,2079.40;4997.40,2311.80;4969.84,2564.01;3429.26,2930.44;3445.00,2709.80;3500.18,2654.63;2960.39,2449.75;3996.63,2607.35;4024.22,2433.99;3929.65,1894.19" z_order="0">
+      <attribute name="class">book</attribute>
+      <attribute name="occluded">false</attribute>
+      <attribute name="cropped">false</attribute>
+    </polygon>
+    <polygon label="object" source="manual" occluded="0" points="2073.86,1752.35;1809.87,2110.90;1790.17,2272.44;4000.57,2603.41;4024.22,2437.93;3929.65,1890.25" z_order="0">
+      <attribute name="cropped">false</attribute>
+      <attribute name="occluded">false</attribute>
+      <attribute name="class">book</attribute>
+    </polygon>
+  </image>
+  <image id="14" name="24_mouse.jpg" width="6000" height="4000">
+    <polygon label="object" source="manual" occluded="0" points="1862.95,2501.58;1680.54,2581.39;1530.43,2718.20;1437.32,2843.61;1416.42,2910.11;1448.72,2991.82;1534.23,3050.72;1672.94,3060.22;1807.85,3064.02;1967.46,3022.22;2104.27,2969.02;2343.68,2885.41;2520.39,2839.81;2564.10,2779.00;2548.90,2670.70;2457.69,2594.69;2345.58,2545.29;2191.70,2495.90;2001.66,2473.08" z_order="0">
+      <attribute name="class">mouse</attribute>
+      <attribute name="occluded">false</attribute>
+      <attribute name="cropped">false</attribute>
+    </polygon>
+    <polygon label="object" source="manual" occluded="0" points="2942.41,2499.68;2834.11,2549.09;2746.70,2640.29;2678.30,2750.50;2657.39,2841.71;2670.70,2953.81;2697.30,2997.52;2786.60,3035.52;2906.31,3071.62;2995.62,3083.02;3115.33,3062.12;3261.64,3003.22;3442.15,2938.61;3516.25,2885.41;3580.90,2807.50;3580.86,2712.50;3499.15,2588.99;3402.25,2511.08;3271.14,2471.18;3083.02,2463.58" z_order="0">
+      <attribute name="class">mouse</attribute>
+      <attribute name="occluded">false</attribute>
+      <attribute name="cropped">false</attribute>
+    </polygon>
+    <polygon label="object" source="manual" occluded="0" points="2722.00,2068.35;2684.00,2174.76;2720.10,2277.37;2830.31,2357.17;2963.32,2393.28;3041.22,2461.68;3181.83,2461.68;3343.34,2484.48;3444.05,2545.29;3483.95,2550.99;3537.15,2471.18;3579.00,2376.20;3542.90,2241.30;3445.95,2125.36;3208.43,1980.95;3058.32,1887.84;2965.20,1874.50;2849.31,1918.24" z_order="0">
+      <attribute name="class">mouse</attribute>
+      <attribute name="occluded">false</attribute>
+      <attribute name="cropped">false</attribute>
+    </polygon>
+    <polygon label="object" source="manual" occluded="0" points="3554.26,2454.08;3639.76,2412.28;3748.07,2372.37;3863.98,2341.97;3977.98,2324.87;4110.99,2319.17;4244.00,2340.07;4384.61,2397.08;4477.72,2454.08;4546.12,2537.69;4574.63,2649.79;4561.32,2691.60;4426.42,2746.70;4244.00,2748.60;4006.49,2761.90;3793.67,2779.00;3601.76,2784.70;3578.96,2758.10;3575.16,2710.60;3480.15,2558.59" z_order="0">
+      <attribute name="class">mouse</attribute>
+      <attribute name="occluded">false</attribute>
+      <attribute name="cropped">false</attribute>
+    </polygon>
+  </image>
+</annotations>
