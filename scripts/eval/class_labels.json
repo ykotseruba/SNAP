@@ -1,0 +1,53 @@
+{
+    "spoon": [
+        "spatula",
+        "wooden spoon"
+    ],
+    "bottle": [
+        "water bottle"
+    ],
+    "phone": [
+        "cellular telephone",
+        "cellular telephone, cellular phone, cellphone, cell, mobile phone"
+    ],
+    "umbrella": [
+        "umbrella"
+    ],
+    "tv": [
+        "monitor"
+    ],
+    "banana": [
+        "banana"
+    ],
+    "orange": [
+        "orange"
+    ],
+    "basketball": [
+        "basketball"
+    ],
+    "ball": [
+        "basketball"
+    ],
+    "keyboard": [
+        "computer keyboard",
+        "computer keyboard, keypad"
+    ],
+    "cup": [
+        "cup"
+    ],
+    "laptop": [
+        "laptop",
+        "laptop, laptop computer"
+    ],
+    "remote": [
+        "remote control",
+        "remote control, remote"
+    ],
+    "book": [
+        "book jacket",
+        "book jacket, dust cover, dust jacket, dust wrapper"
+    ],
+    "mouse": [
+        "mouse, computer mouse"
+    ]
+}

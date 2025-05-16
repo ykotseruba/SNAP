@@ -1,7 +1,5 @@
 # SNAP Benchmark
 
-https://huggingface.co/api/datasets/ykotseruba/SNAP
-
 This is the official repository for **SNAP** (stands for **S**hutter speed, **I**SO se**N**sitivity, and **AP**erture). SNAP is a new benchmark consisting of images of objects taken under controlled lighting conditions and with densely sampled camera settings.
 
 **Dataset on HuggingFace**: https://huggingface.co/datasets/ykotseruba/SNAP

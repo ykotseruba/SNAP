@@ -1,0 +1,8 @@
+pillow
+pandas
+openpyxl
+tqdm
+transformers
+timm>=0.9.8
+open-clip-torch>=2.23.0
+torchinfo
