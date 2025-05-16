@@ -102,6 +102,12 @@ The `annotation` folder contains annotations for three tasks:
 	- Q3: Objects of what class are in the image? Select one of the following options: cup, comic book, keyboard, laptop, mouse, tie, water bottle, phone, backpack, remote, other
 	- Q4: How many objects are in the image? Select one of the following options: A) 1    B) 2    C) 3    D) 4
 
+### Testing humans
+
+We conducted an experiment with 43 human observers on a subset of SNAP images. The subjects viewed images on the monitor and answered the same questions that we used on the VQA task. This data was used to establish a human baseline for the counting and categorization tasks under varying capture conditions.
+
+PsychoPy code for running the experiment is in the `human_experiment` folder. 
+
 
 ### Testing models
 
