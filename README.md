@@ -2,13 +2,16 @@
 
 https://huggingface.co/api/datasets/ykotseruba/SNAP
 
-This is the official repository for SNAP benchmark. It contains the dataset annotations as well as code to reproduce the results of the paper: I.Kotseruba, J.K.Tsotsos, SNAP: A Benchmark for Testing the Effects of Capture Conditions on Fundamental Vision Tasks, arXiv, 2025.
+This is the official repository for **SNAP** (stands for **S**hutter speed, **I**SO se**N**sitivity, and **AP**erture). SNAP is a new benchmark consisting of images of objects taken under controlled lighting conditions and with densely sampled camera settings.
 
 **Dataset on HuggingFace**: https://huggingface.co/datasets/ykotseruba/SNAP
 
-**SNAP** (stands for **S**hutter speed, **I**SO se**N**sitivity, and **AP**erture) is a new benchmark consisting of images of objects taken under controlled lighting conditions and with densely sampled camera settings.
+This repository contains the dataset annotations as well as code to reproduce the results of the paper: I.Kotseruba, J.K.Tsotsos, SNAP: A Benchmark for Testing the Effects of Capture Conditions on Fundamental Vision Tasks, arXiv, 2025.
 
-This benchmark allows testing the effects of capture bias, which includes camera settings and illumination, on performance of vision algorithms. 
+
+## Description
+
+SNAP allows testing the effects of capture bias, which includes camera settings and illumination, on performance of vision algorithms. 
 
 SNAP contains 37.5K images uniformly distributed across sensor settings. The images feature everyday objects placed on the table against a plain background.
 
@@ -20,7 +23,9 @@ SNAP includes annotations for the following vision tasks:
 
 SNAP also includes a human baseline for the VQA task on a subset of SNAP images.
 
-![Overview of SNAP](images/capture_setup.jpg)
+<img src="images/capture_setup.jpg" alt="capture_setup" width="200"/>
+
+<img src="images/SNAP_samples_v1.png" alt="Overview of SNAP" width="600"/>
 
 
 ## Results
@@ -30,17 +35,17 @@ vision-language models (VLMs), on image classification, object detection, and vi
 answering (VQA) tasks. **All models were sensitive to camera parameters on all vision tasks.** 
 
 
-![Image classification](images/image_classification_EV_offset_top1_acc_box.jpg)
+![Image classification](images/image_classification_EV_offset_top1_acc_box.png)
 
 On image classification task, most models do not reach their performance on ImageNet (red crosses). Performance of all models fluctuates depending on exposure (box plots), and most models are sensitive to even small parameter changes (blue dots).
 
-![Object detection](images/object_detection_EV_offset_oLRP_box.jpg)
+![Object detection](images/object_detection_EV_offset_oLRP_box.png)
 
 Similarly, on object detection, models are sensitive to exposure, particularly w.r.t. misclassifications.
 
-![VQA](images/vqa_EV_offset_avg_acc1_box.jpg)
+![VQA](images/vqa_EV_offset_avg_acc1_box.png)
 
-![VQA](images/vqa_EV_offset_avg_acc1_line.jpg)
+![VQA](images/vqa_EV_offset_avg_acc1_line.png)
 
 Lastly, VLMs show similar biases. **Although some VLMs reach parity with human subjects on average, none can match peak human performance**.  
 
@@ -55,7 +60,6 @@ The following setup was used: a Canon Rebel T7 DSLR camera on a tripod, table co
 
 We selected the following categories of objects since they are present in both ImageNet and COCO dataset used to train models for image classification, object detection, and VQA:
 
-![Sample from the dataset](images/SNAP_samples_v1.jpg)
 
 Each image features 2-5 objects of the same class, such that there are some occlusions, shadows, etc. This way image classification is not affected since the objects are in the same category, at the same time, detection/segmentation tasks are made more challenging.
 
