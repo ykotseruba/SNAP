@@ -4,7 +4,7 @@ This is the official repository for **SNAP** (stands for **S**hutter speed, **I*
 
 **Dataset on HuggingFace**: https://huggingface.co/datasets/ykotseruba/SNAP
 
-This repository contains the dataset annotations as well as code to reproduce the results of the paper: I.Kotseruba, J.K.Tsotsos, SNAP: A Benchmark for Testing the Effects of Capture Conditions on Fundamental Vision Tasks, arXiv, 2025.
+This repository contains the dataset annotations as well as code to reproduce the results of the paper: I.Kotseruba, J.K.Tsotsos, SNAP: A Benchmark for Testing the Effects of Capture Conditions on Fundamental Vision Tasks, arXiv, 2025 (https://arxiv.org/abs/2505.15628).
 
 
 ## Description
